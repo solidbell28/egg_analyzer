@@ -18,16 +18,15 @@ Streamlit-приложение для анализа изображений яи
 ## Установка и запуск  
 
 1. Клонируйте репозиторий:
-```
-bash 
+```bash 
 git clone https://github.com/yourusername/egg-analyzer.git  
 cd egg-analyzer
 ```
 2. Установите зависимости:
-```
+```bash
 pip install -r requirements.txt
 ```
 3. Запустите приложение
-```
+```bash
 streamlit run app.py  
 ```

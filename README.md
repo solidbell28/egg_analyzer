@@ -19,7 +19,7 @@ Streamlit-приложение для анализа изображений яи
 
 1. Клонируйте репозиторий:
 ```bash 
-git clone https://github.com/yourusername/egg-analyzer.git  
+git clone https://github.com/solidbell28/egg_segmentation.git 
 cd egg-analyzer
 ```
 2. Установите зависимости:

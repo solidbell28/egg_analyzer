@@ -33,7 +33,7 @@ streamlit run app.py
 
 ## Обучение модели
 Весь процесс обучения и эксперименты доступны в Jupyter-ноутбуке:
-🔬 ![IPR Task1 Experiments на Kaggle](https://www.kaggle.com/code/kinging/ipr-task1-experiments)
+🔬 [IPR Task1 Experiments на Kaggle](https://www.kaggle.com/code/kinging/ipr-task1-experiments)
 
 Ноутбук содержит:
 - Загрузку данных
@@ -43,7 +43,7 @@ streamlit run app.py
 
 ## Данные
 Исходный датасет для обучения доступен на Яндекс.Диске:
-📦 ![Ссылка на датасет](https://disk.yandex.ru/client/disk/IPR/Task_1)
+📦 [Ссылка на датасет](https://disk.yandex.ru/client/disk/IPR/Task_1)
 
 Архив содержит:
 - Исходные изображения яиц

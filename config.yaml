@@ -1,0 +1,3 @@
+model_path: "model.pt"
+brightness_threshold: 170
+conf_threshold: 0.5

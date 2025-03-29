@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 3. Запустите приложение
 ```bash
-streamlit run app.py  
+streamlit run main.py  
 ```
 
 ## Обучение модели

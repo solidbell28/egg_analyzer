@@ -5,6 +5,11 @@ import numpy as np
 from ultralytics import YOLO
 from typing import Dict
 from preprocess import process_eggs
+import torch
+
+
+# fixing bug that appears while using streamlit with torch
+torch.classes.__path__ = []
 
 
 @st.cache_resource
@@ -29,12 +34,12 @@ def main():
         st.header('Настройки')
         config['brightness_threshold'] = st.slider(
             'Порог яркости',
-            0, 255, 170,
+            0, 255, config['brightness_threshold'],
             help='Пороговое значение для классификации на светлые/темные яйца'
         )
         config['conf_threshold'] = st.slider(
             'Порог уверенности',
-            0.0, 1.0, 0.5,
+            0.0, 1.0, config['conf_threshold'],
             help='Минимальная уверенность модели для детекции'
         )
 

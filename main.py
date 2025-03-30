@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 from typing import Dict
-from preprocess import process_eggs
+from process import process_eggs
 import torch
 
 

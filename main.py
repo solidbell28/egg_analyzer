@@ -32,16 +32,18 @@ def main():
 
     with st.sidebar:
         st.header('Настройки')
-        config['brightness_threshold'] = st.slider(
-            'Порог яркости',
-            0, 255, config['brightness_threshold'],
-            help='Пороговое значение для классификации на светлые/темные яйца'
-        )
-        config['conf_threshold'] = st.slider(
-            'Порог уверенности',
-            0.0, 1.0, config['conf_threshold'],
-            help='Минимальная уверенность модели для детекции'
-        )
+        with st.form('slider_form'):
+            config['brightness_threshold'] = st.slider(
+                'Порог яркости',
+                0, 255, config['brightness_threshold'],
+                help='Пороговое значение для классификации на светлые/темные яйца'
+            )
+            config['conf_threshold'] = st.slider(
+                'Порог уверенности',
+                0.0, 1.0, config['conf_threshold'],
+                help='Минимальная уверенность модели для детекции'
+            )
+            submit = st.form_submit_button("Применить значения порогов")
 
     uploaded_file = st.file_uploader(
         "Выберите изображение",

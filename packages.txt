@@ -1,2 +1,2 @@
 libgl1
-libcublas9.2
+libcublas9

@@ -1,2 +1,2 @@
 libgl1
-libcublas9
+nvidia-cuda-toolkit

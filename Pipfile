@@ -56,8 +56,6 @@ streamlit = "==1.44.0"
 sympy = "==1.13.1"
 tenacity = "==9.0.0"
 toml = "==0.10.2"
-torch = "==2.6.0"
-torchvision = "==0.21.0"
 tornado = "==6.4.2"
 tqdm = "==4.67.1"
 typing-extensions = "==4.13.0"
@@ -67,6 +65,8 @@ ultralytics-thop = "==2.0.14"
 urllib3 = "==2.3.0"
 watchdog = "==6.0.0"
 opencv-python-headless = "*"
+torch = "*"
+torchvision = "*"
 
 [dev-packages]
 

@@ -19,7 +19,7 @@ Streamlit-приложение для анализа изображений яи
 
 1. Клонируйте репозиторий:
 ```bash 
-git clone https://github.com/solidbell28/egg_segmentation.git 
+git clone https://github.com/solidbell28/egg_analyzer.git 
 cd egg-analyzer
 ```
 2. Установите зависимости:
@@ -32,8 +32,8 @@ streamlit run main.py
 ```
 
 ## Обучение модели
-Весь процесс обучения и эксперименты доступны в Jupyter-ноутбуке:
-🔬 [IPR Task1 Experiments на Kaggle](https://www.kaggle.com/code/kinging/ipr-task1-experiments)
+Весь процесс обучения и эксперименты доступны в Jupyter-ноутбуке на Kaggle:
+🔬 [IPR Task1 Experiments](https://www.kaggle.com/code/kinging/ipr-task1-experiments)
 
 Ноутбук содержит:
 - Загрузку данных

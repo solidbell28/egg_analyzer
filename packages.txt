@@ -1,3 +1,0 @@
-libgl1
-nvidia-cuda-toolkit
-nvidia-cuda-toolkit-gcc

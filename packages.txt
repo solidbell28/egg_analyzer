@@ -1,2 +1,2 @@
 libgl1
-cuda
+cuda-toolkit

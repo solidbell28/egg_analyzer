@@ -67,6 +67,7 @@ watchdog = "==6.0.0"
 torch = "*"
 torchvision = "*"
 opencv-python = "*"
+opencv-python-headless = "*"
 
 [dev-packages]
 
